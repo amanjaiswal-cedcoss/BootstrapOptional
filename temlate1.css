@@ -1,0 +1,14 @@
+/* Navbar CSS */
+.nav__searchinp  {
+    max-width:200px;
+}
+
+/* Blog Card CSS */
+.blogpic  {
+    max-height: 300px;
+}
+
+/* Aside tag CSS */
+.main__aside  {
+    max-width:320px;
+}

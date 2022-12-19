@@ -1,0 +1,117 @@
+/* Universal CSS */
+.bggrey {
+    background-color: #efeff4;
+}
+
+.usercover {
+    max-height: 50px;
+    z-index: -1;
+}
+
+.userpic {
+    max-height: 60px;
+}
+
+.userpic--smaller {
+    max-height: 40px;
+}
+
+.shorttxt {
+    font-size: 14px;
+}
+
+.followpic {
+    max-height: 50px;
+}
+
+.bglightblue {
+    background-color: #e7edfe;
+}
+
+.vshorttxt {
+    font-size: 12px;
+}
+
+.bgbluegrey {
+    background-color: #eff1f7;
+}
+
+/* Navbar CSS */
+.nav__inpgrp {
+    max-width: 250px;
+}
+
+/* Aside section CSS */
+.main__aside {
+    max-width: 250px;
+    z-index: 1;
+}
+
+.main__aside__listname {
+    min-width: 105px;
+}
+
+.addcover {
+    min-height: 40px;
+    min-width: 40px;
+}
+
+/* Feed section CSS */
+.feed {
+    max-width: 570px;
+}
+
+.feed__stories {
+    width: max-content;
+}
+
+.feed__story {
+    max-height: 140px;
+    max-width: 110px;
+}
+
+.feed__addstory {
+    border: 2px solid #bbbbc5;
+    border-style: dashed;
+    min-width: 110px;
+}
+
+.feed__thoughts {
+    min-height: 140px;
+}
+
+.main__postuserpic {
+    outline: 2px solid #2548cf;
+    outline-offset: 1px;
+}
+
+@media (width <= 770px) {
+    .main  {
+        justify-content: center !important;
+    }
+    .main__aside  {
+        max-width: 100%;
+    }
+    .main__aside--right  {
+        display: flex;
+    }
+    .main__feed  {
+        max-width: 100%;
+    }
+    .feed__story  {
+        max-height: 100px;
+        max-width: 80px;
+    }
+    .feed__addstory  {
+        max-width: 80px;
+    }
+  }
+
+  @media (width <= 450px)  {
+    .main__aside--right  {
+        display: block;
+    }
+    .main__aside__news  {
+        margin: 10px 0 !important;
+    }
+  }
